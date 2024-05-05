@@ -1,12 +1,5 @@
 import os
 import sys
-
-# Get the absolute path of the 'src' directory
-src_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-
-# Add 'src' directory to the Python path
-sys.path.append(src_dir)
-
 from src.logger import logging
 from src.exception import CustomException
 import pandas as pd
